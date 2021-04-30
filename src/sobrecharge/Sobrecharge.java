@@ -12,6 +12,8 @@ public class Sobrecharge {
         int num2 = write.nextInt();
         int num3 = write.nextInt();
         sobre obt1 = new sobre();
+        SumaNUSMeros alv = new SumaNUSMeros();
+        alv.suma(7, 18);
         obt1.test();
         obt1.test(num1);
         obt1.test(num1, num2);
